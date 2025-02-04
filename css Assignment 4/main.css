@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Desktop View */
+body {
+  max-width: 375px;
+  max-height: 1294px;
+  border: 1px solid #000;
+}
+
+#header,
+#form_data {
+  padding: 20px;
+}
+#id {
+  width: 38.67px;
+  height: 40px;
+  box-shadow: 0 4 10 0 #0000001a;
+}
+
+#header_text {
+  font-family: Brown;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  color: #737373;
+}
+
+#individual {
+  font-family: Brown;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 29.4px;
+}
+
+#form_data {
+  width: 327px;
+  height: 870px;
+  box-shadow: 0 4 50 0 #0408131a;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 295px;
+  height: 72px;
+}
+
+label {
+  width: 295px;
+  height: 16px;
+  font-family: Sofia Pro;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #011c34;
+}
+.first_input {
+  border: 1px solid #2ec4b6;
+}
+::placeholder {
+  font-family: Sofia Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #011c34;
+}
+
+input,
+select {
+  width: 295px;
+  height: 48px;
+  border: 1px solid #f0f0f0;
+}
+
+.register {
+  width: 295px;
+  height: 48px;
+}
+
+.register input {
+  font-family: Sofia Pro;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  background-color: #2ec4b6;
+  color: #fff;
+  box-shadow: 0 10 40 0 #0000001a;
+}
+
+.policy {
+  width: 316px;
+  height: 50px;
+}
+
+.policy p {
+  font-family: Sofia Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+}
+
+.policy a {
+  font-family: Sofia Pro;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: center;
+  text-decoration: underline;
+  color: #2ec4b6;
+}
