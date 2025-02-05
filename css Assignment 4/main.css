@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -7,97 +9,107 @@
 /* Desktop View */
 body {
   max-width: 375px;
-  max-height: 1294px;
+  max-height: 1050px;
+  min-width: 375px;
+  min-height: 1050px;
   border: 1px solid #000;
+  background-color: #f7fdfc;
 }
 
-#header,
-#form_data {
+#header {
   padding: 20px;
 }
-#id {
+
+#logo {
   width: 38.67px;
   height: 40px;
-  box-shadow: 0 4 10 0 #0000001a;
+}
+
+#individual {
+  font-family: "Lato", serif;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 #header_text {
-  font-family: Brown;
+  font-family: "Lato", serif;
+  padding: 10px 0 0 0;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 25px;
   color: #737373;
 }
 
-#individual {
-  font-family: Brown;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 29.4px;
-}
-
-#form_data {
+form {
   width: 327px;
-  height: 870px;
-  box-shadow: 0 4 50 0 #0408131a;
+  height: 750px;
+  box-shadow: 0 4px 50px 0 #0408131a;
+  background-color: #ffffff;
+  border-radius: 6px;
+  margin: 0px 20px;
+  box-shadow: 0 10px 40px 0 #0408131a;
 }
 
-.input {
+.input,
+.register {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 295px;
-  height: 72px;
+  margin: 15px;
+}
+.first {
+  padding-top: 15px;
 }
 
 label {
   width: 295px;
-  height: 16px;
-  font-family: Sofia Pro;
+  padding-bottom: 10px;
+  font-family: "Lato", serif;
   font-size: 14px;
   font-weight: 600;
-  line-height: 14px;
   color: #011c34;
 }
 .first_input {
   border: 1px solid #2ec4b6;
 }
 ::placeholder {
-  font-family: Sofia Pro;
-  font-size: 14px;
+  font-family: "Lato", serif;
+  font-size: 12px;
   font-weight: 400;
-  line-height: 20px;
   color: #011c34;
 }
 
 input,
 select {
   width: 295px;
-  height: 48px;
+  padding: 10px;
   border: 1px solid #f0f0f0;
 }
 
 .register {
   width: 295px;
-  height: 48px;
+  padding: 20px;
 }
 
 .register input {
-  font-family: Sofia Pro;
+  font-family: "Lato", serif;
   font-size: 16px;
   font-weight: 600;
-  line-height: 16px;
   background-color: #2ec4b6;
   color: #fff;
-  box-shadow: 0 10 40 0 #0000001a;
+  box-shadow: 0 10px 40px 0 #0000001a;
 }
 
 .policy {
   width: 316px;
-  height: 50px;
+  padding: 20px;
+  margin: 5px auto;
 }
 
 .policy p {
-  font-family: Sofia Pro;
+  font-family: "Lato", serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 25px;
@@ -105,11 +117,18 @@ select {
 }
 
 .policy a {
-  font-family: Sofia Pro;
+  font-family: "Lato", serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 25px;
-  text-align: center;
   text-decoration: underline;
   color: #2ec4b6;
+}
+
+/* Desktop View and other resolutions */
+@media (min-width: 375px) {
+  body {
+    max-width: 1440px;
+    max-height: 840px;
+  }
 }
