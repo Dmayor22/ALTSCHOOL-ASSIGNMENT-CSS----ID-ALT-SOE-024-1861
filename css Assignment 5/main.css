@@ -11,6 +11,7 @@ body {
   height: 1170px;
   background-color: #f5f8fa;
   margin: 0 auto;
+  font-family: "Lato", serif;
 }
 
 .nav-bar {
@@ -80,4 +81,49 @@ body {
   height: 795px;
 
   border: 2px solid #000;
+}
+
+#title {
+  width: 580px;
+  height: 60px;
+}
+
+#hr_2 {
+  width: 580px;
+  height: 2px;
+}
+
+.section_basic {
+  width: 580px;
+  height: 221px;
+  margin-top: 15px;
+  border: 2px solid #000;
+}
+
+#basic_container {
+  width: 260px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#one {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #548bc5;
+  border-radius: 50%;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 2px;
+  text-align: center;
+  color: #548bc5;
+}
+
+#basic_container p {
+  width: 220px;
+  color: #1d2c3c;
+  font-size: 18px;
+  font-weight: 700;
+
 }
