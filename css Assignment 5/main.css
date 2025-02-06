@@ -97,7 +97,6 @@ body {
   width: 580px;
   height: 221px;
   margin-top: 15px;
-  border: 2px solid #000;
 }
 
 #basic_container {
@@ -125,5 +124,51 @@ body {
   color: #1d2c3c;
   font-size: 18px;
   font-weight: 700;
-
 }
+
+.name_container {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  margin-top: 8px;
+}
+
+.input {
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  width: 227px;
+  gap: 4px;
+}
+
+.input label {
+  font-size: 14px;
+  font-weight: 400;
+  color: #1d2c3c;
+}
+
+input {
+  width: 227px;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #edeff2;
+  border: none;
+}
+
+.email {
+  width: 370px;
+  height: 60px;
+  border-radius: 5px 0px 0px 0px;
+  margin-top: 10px;
+}
+
+.email input {
+  width: 370px;
+  border-radius: 5px;
+}
+
+::placeholder {
+  color: #646E7A;
+}
+
+
