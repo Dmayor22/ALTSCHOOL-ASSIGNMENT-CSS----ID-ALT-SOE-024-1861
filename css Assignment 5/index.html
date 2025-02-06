@@ -22,69 +22,66 @@
     <hr class="hr" />
 
     <main class="panel">
-      <h3>Checkout</h3>
-
-      <form action="#">
-        <div class="section_basic">
-          <p><span>1</span>Your Basic Information</p>
-
-          <div class="input">
-            <label for="Firstname">First name</label>
-            <input
-              type="text"
-              name="firstname"
-              id="Firstname"
-              placeholder="Joe"
-            />
+      <div class="form_data">
+        <h3 id="title">Checkout</h3>
+        <form action="#">
+          <div class="section_basic">
+            <p><span>1</span> Your Basic Information</p>
+            <div class="input">
+              <label for="Firstname">First name</label>
+              <input
+                type="text"
+                name="firstname"
+                id="Firstname"
+                placeholder="Joe"
+              />
+            </div>
+            <div class="input">
+              <label for="Lastname">Last name</label>
+              <input
+                type="text"
+                name="firstname"
+                id="Lastname"
+                placeholder="Doe"
+              />
+            </div>
+            <div class="input">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="jondoe@example.com"
+              />
+            </div>
           </div>
-          <div class="input">
-            <label for="Lastname">Last name</label>
-            <input
-              type="text"
-              name="firstname"
-              id="Lastname"
-              placeholder="Doe"
-            />
+          <div class="section_payment">
+            <p><span>2</span> Your Payment Information</p>
+            <div class="input">
+              <label for="cc">Credit Card</label>
+              <input
+                type="text"
+                name="cc"
+                id="cc"
+                autocomplete="cc-number"
+                placeholder="Card number MM/YY CVC"
+              />
+            </div>
           </div>
-          <div class="input">
-            <label for="email">E-mail</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="jondoe@example.com"
-            />
+          <div class="purchase">
+            <input type="submit" value="Buy WP Pusher" />
+            <div class="support">
+              <p>
+                <span>&quest;</span> Need any help?
+                <a href="#"> Don't hesitate to contact support!</a>
+              </p>
+            </div>
+            <div class="powered">
+              <img src="images/Shape.png" alt="" />
+            </div>
           </div>
-        </div>
-
-        <div class="section_payment">
-          <p><span>2</span>Your Basic Information</p>
-
-          <div class="input">
-            <label for="cc">Credit Card</label>
-            <input
-              type="text"
-              name="cc"
-              id="cc"
-              autocomplete="cc-number"
-              placeholder="Card number MM/YY CVC"
-            />
-          </div>
-        </div>
-
-        <div class="purchase">
-          <input type="submit" value="Buy WP Pusher" />
-          <div class="support">
-            <p>
-              <span>&quest;</span> Need any help?
-              <a href="#"> Don't hesitate to contact support!</a>
-            </p>
-          </div>
-          <div class="powered">
-            <img src="images/Shape.png" alt="" />
-          </div>
-        </div>
-      </form>
+        </form>
+      </div>
 
       <aside class="sidebar">
         <div class="plan">
@@ -104,7 +101,9 @@
         </div>
 
         <div class="switch">
-          <p>Need 20 client sites? Switch to the Agency plan.</p>
+          <p>
+            Need 20 client sites? <a href="#">Switch to the Agency plan.</a>
+          </p>
         </div>
         <hr />
 
