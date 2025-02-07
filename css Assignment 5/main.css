@@ -62,8 +62,6 @@ body {
   margin: 20px auto;
   box-shadow: 0px 15px 35px 0px #2b404e18;
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
   border: 2px solid #000;
 }
 
@@ -99,19 +97,22 @@ body {
   margin-top: 15px;
 }
 
-#basic_container {
+.basic_container {
   width: 260px;
   display: flex;
   align-items: center;
   gap: 5px;
 }
 
-#one {
+.basic_container p {
+  font-weight: 700;
+}
+
+.one {
   width: 30px;
   height: 30px;
   border: 2px solid #548bc5;
   border-radius: 50%;
-  font-family: Lato;
   font-size: 16px;
   font-weight: 700;
   padding: 2px;
@@ -172,3 +173,12 @@ input {
 }
 
 
+.section_payment {
+  width: 580px;
+  height: 154px;
+  margin-top: 15px;
+}
+
+.two {
+  padding: 4px;
+}
