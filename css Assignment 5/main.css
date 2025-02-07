@@ -62,7 +62,6 @@ body {
   margin: 20px auto;
   box-shadow: 0px 15px 35px 0px #2b404e18;
   display: flex;
-  border: 2px solid #000;
 }
 
 .form_data {
@@ -70,16 +69,9 @@ body {
   height: 795px;
   background-color: #fff;
   padding: 40px;
-
-  border: 2px solid red;
 }
 
-.sidebar {
-  width: 312px;
-  height: 795px;
 
-  border: 2px solid #000;
-}
 
 #title {
   width: 580px;
@@ -169,9 +161,8 @@ input {
 }
 
 ::placeholder {
-  color: #646E7A;
+  color: #646e7a;
 }
-
 
 .section_payment {
   width: 580px;
@@ -181,4 +172,78 @@ input {
 
 .two {
   padding: 4px;
+}
+
+.cc {
+  width: 483px;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.cc input {
+  width: 483px;
+  height: 36px;
+  border-radius: 4px;
+}
+
+.purchase {
+  width: 483px;
+  height: 146.1px;
+  margin: 40px auto;
+}
+
+.submit {
+  width: 483px;
+  height: 52px;
+  background-color: #038e7d;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+}
+
+.support {
+  width: 333px;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.support p {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.support p a {
+  color: #646e7a;
+}
+
+.help {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #548bc5;
+  border-radius: 50%;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 3px;
+  text-align: center;
+  color: #548bc5;
+}
+
+.shape {
+  width: 92px;
+  height: 20.1px;
+  margin: 20px 180px;
+}
+
+
+.sidebar {
+  width: 312px;
+  height: 795px;
+
+  border: 2px solid #000;
 }
