@@ -49,10 +49,15 @@ body {
   cursor: pointer;
   color: #1d2c3c;
 }
-
-.hr {
+.bar {
   width: 1358px;
   height: 2px;
+  background-color: #e0e6ea;
+}
+.title {
+  width: 580px;
+  height: 2px;
+  background-color: #e0e6ea;
 }
 
 .panel {
@@ -71,16 +76,10 @@ body {
   padding: 40px;
 }
 
-
-
 #title {
   width: 580px;
   height: 60px;
-}
-
-.hr_2 {
-  width: 580px;
-  height: 2px;
+  font-size: 30px;
 }
 
 .section_basic {
@@ -107,7 +106,7 @@ body {
   border-radius: 50%;
   font-size: 16px;
   font-weight: 700;
-  padding: 2px;
+  padding: 4px;
   text-align: center;
   color: #548bc5;
 }
@@ -240,10 +239,115 @@ input {
   margin: 20px 180px;
 }
 
-
 .sidebar {
   width: 312px;
   height: 795px;
+  padding: 50px 20px 0 20px;
+  background-color: blue;
+}
 
-  border: 2px solid #000;
+.sidebar_content {
+  width: 231px;
+  height: 610px;
+  background-color: blue;
+  color: #fff;
+}
+
+.plan {
+  width: 231px;
+  height: 152px;
+}
+.pricing {
+  width: 140px;
+  height: 72px;
+}
+
+.pricing p {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+#year {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#dols {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#auto_text {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.details {
+  width: 170px;
+  height: 96px;
+}
+.details ul {
+  list-style: none;
+}
+
+.details ul li {
+  margin: 10px 0;
+}
+
+.switch {
+  width: 184px;
+  height: 51px;
+}
+
+.switch p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.switch a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.line {
+  background-color: #f5f8fa;
+}
+
+.quote_line {
+  width: 224px;
+  height: 2px;
+}
+
+.quote {
+  width: 229px;
+  height: 196px;
+  margin-top: 30px;
+}
+
+.quote p {
+  margin-top: 40px;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.profile {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+footer  p{
+  margin-top: 10px;
+  text-align: center;
+  color: #646e7a;
+}
+
+footer a {
+  text-decoration: none;
 }
