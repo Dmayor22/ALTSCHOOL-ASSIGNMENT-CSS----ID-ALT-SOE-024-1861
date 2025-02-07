@@ -243,14 +243,17 @@ input {
   width: 312px;
   height: 795px;
   padding: 50px 20px 0 20px;
-  background-color: blue;
+  background-color: #1179c0;
 }
 
 .sidebar_content {
   width: 231px;
   height: 610px;
-  background-color: blue;
   color: #fff;
+}
+
+.icon {
+  margin-right: 3px;
 }
 
 .plan {
