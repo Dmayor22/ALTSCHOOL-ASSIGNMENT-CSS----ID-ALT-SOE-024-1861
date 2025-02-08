@@ -4,15 +4,11 @@
   box-sizing: border-box;
 }
 
-body {
-  border: 2px solid red;
-}
-
 .hero_section {
   width: 1440px;
   height: 1024px;
   margin: 0 auto;
-  border: 2px solid red;
+  border: 2px solid #000;
 }
 
 .header {
@@ -82,3 +78,32 @@ body {
   border: none;
   cursor: pointer;
 }
+
+.frame_1 {
+  border: 2px solid red;
+  width: 948px;
+  height: 389px;
+  margin: 32px auto;
+}
+
+.optimise {
+  width: 948px;
+  height: 313px;
+}
+
+.opt_text {
+  width: 948px;
+  height: 200px;
+}
+
+.opt_text p {
+  font-size: 48px;
+  line-height: 96px;
+  text-align: center;
+  font-weight: 700;
+}
+
+#url {
+  color: #005ae2;
+}
+
